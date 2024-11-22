@@ -1,35 +1,49 @@
 /* Style général pour le body */
-body {
-    font-family: Arial, sans-serif;
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #DDD0C8;
+    color:#323232;
 }
 
 /* Style pour le header */
 header {
-    background-color: #333;
+    background-color: black;
     color: white; 
     text-align: center;
-    padding: 1em 0;
+    padding-top: 0.1em;
 }
 
 /* Style pour le menu */
 nav ul {
-    list-style: none;
-    padding: 0;
+    padding: 20px 50px;
     margin: 0;
     display: flex;
-    justify-content: center;
-    background-color: #444;
+    justify-content: space-evenly;
+    align-items: center; /* Centre verticalement tous les éléments dans le menu */
+    background-color: #DDD0C8;
+}
+
+.logo {
+    width: 150px; /* Ajustement de la taille du logo */
+    height: auto;
+    margin-right: 20px;
+    vertical-align: middle; /* Aligne l'image avec le texte */
+    display: inline-block; 
 }
 
 nav ul li {
-    margin: 0 1em;
+    margin: 0 4em;
 }
 
 nav a {
     text-decoration: none;
-    color: white;
+    color: #323232;
     font-weight: bold;
 }
 
