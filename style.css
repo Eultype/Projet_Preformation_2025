@@ -65,20 +65,32 @@ footer {
 
 
 .Exposition {
-    margin-left: 600px;
-    margin-right :120px;
-    text-align: justify;
+    text-align: center;
 }
 .Exposition h1 {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    
 
 }
 
 .Explications {
-    font-size: 15px;  
+    font-size: 12px;  
+    margin-right: 35%;
+    margin-left: 15%;
+
 }
 
 
+.content {
+    display: flex;
+    align-items: center; /* Aligne le haut de l'image avec le texte */
+    
+}
 
-
-
+.image-gauche {
+    width: 8%; /* Taille de l'image */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-left: 5%;
+}
