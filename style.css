@@ -13,15 +13,12 @@ body {
 
 /* Style pour le header */
 header {
-    background-color: black;
     color: white; 
     text-align: center;
-    padding-top: 0.1em;
 }
 
 /* Style pour le menu */
 nav ul {
-    padding: 20px 50px;
     margin: 0;
     display: flex;
     justify-content: space-evenly;
@@ -32,7 +29,7 @@ nav ul {
 .logo {
     width: 150px; /* Ajustement de la taille du logo */
     height: auto;
-    margin-right: 400px;
+    margin-right: 20%;
     vertical-align: middle; /* Aligne l'image avec le texte */
     display: inline-block; 
 }
@@ -45,8 +42,8 @@ nav a {
     text-decoration: none;
     color: #323232;
     font-weight: bold;
-    font-family: brush script mt, cursive;
-    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
 }
 
 /* Rendre le menu "intéractif" lorsque qu'on passe dessus*/
@@ -64,33 +61,20 @@ footer {
 }
 
 
-.Exposition {
+h1 {
     text-align: center;
 }
-.Exposition h1 {
-    margin-bottom: 10px;
-    
 
+.image_test {
+    background: red;
+    width: 200px;
+    height: 200px;
 }
 
-.Explications {
-    font-size: 12px;  
-    margin-right: 35%;
-    margin-left: 15%;
-
-}
-
-
-.content {
+.main_text {
     display: flex;
-    align-items: center; /* Aligne le haut de l'image avec le texte */
-    
-}
-
-.image-gauche {
-    width: 8%; /* Taille de l'image */
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin-left: 5%;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 20px 0 0 0;
 }
