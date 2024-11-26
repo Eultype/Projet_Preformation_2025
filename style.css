@@ -1,20 +1,13 @@
 /* Style général pour le body */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-
 body {
     background-color: #DDD0C8;
     color:#323232;
+    font-family: Arial, sans-serif;
 }
 
 /* Style pour le header */
 header {
     color: white; 
-    text-align: center;
 }
 
 /* Style pour le menu */
@@ -60,21 +53,56 @@ footer {
     margin-top: 2em;
 }
 
-
+/* Style pour expo */
 h1 {
     text-align: center;
 }
 
 .image_test {
-    background: red;
-    width: 200px;
-    height: 200px;
+    background: url(Images/file-removebg-preview\ \(1\).png);
+    width: 500px;
+    height: 300px;
+    background-repeat: no-repeat;
 }
+
+.image_test2 {
+    background:url(Images/tintin.jpg);
+    width: 230px;
+    height: 300px;
+    background-repeat: no-repeat;
+
+}
+
+.image_test3 {
+    background: url(Images/Toutan.jpg);
+    width: 300px;
+    height: 225px;
+    background-repeat: no-repeat;
+    padding-right: 30px;
+    border-radius: 2%;
+}    
+
+.image_test4 {
+    background: url(Images/BD.jpg);
+    width: 300x;
+    height: 225px;
+    background-repeat: no-repeat;
+    padding-right: 300px;
+    border-radius: 2%;
+}   
 
 .main_text {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
-    padding: 20px 0 0 0;
+    gap: 5%;
+    padding: 10px 0 0 0;
+}
+
+.main_text2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+    padding: 10px 0 0 0;
 }
