@@ -106,3 +106,20 @@ h1 {
     gap: 2%;
     padding: 10px 0 0 0;
 }
+
+/* Style pour CONCLUSION */
+
+.image_conclu {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+}
+
+.conclu_test {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 0 0 0;
+    gap: 5%;
+}
