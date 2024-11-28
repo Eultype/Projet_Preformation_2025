@@ -53,6 +53,40 @@ footer {
     margin-top: 2em;
 }
 
+/* Style pour entreprise*/
+
+.image_interview {
+    background-image: url("Images/BD.jpg");
+    width: 300px;
+    height: 230px;
+    background-repeat: no-repeat;
+}
+
+.main_interview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15%;
+    height: 80vh;
+}
+
+.interview_QR {
+    width: 45%;
+}
+
+summary {
+    padding: 10px;
+}
+
+
+details {
+    margin: 0;
+    display: inline-block;
+}
+
+
+
+
 /* Style pour expo */
 h1 {
     text-align: center;
