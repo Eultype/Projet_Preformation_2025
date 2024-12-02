@@ -20,7 +20,7 @@ nav ul {
     display: flex;
     justify-content: space-evenly;
     align-items: center; /* Centre verticalement tous les éléments dans le menu */
-    background-color: #DDD0C8;
+    background-color: #e5e3e1;
 }
 
 .logo {
@@ -72,32 +72,28 @@ footer {
     justify-content: center;
     align-items: center;
     gap: 15%;
+    height: 80vh;
     
-
 }
 
 .interview_QR {
-    width: 45%;
+    width: 45%;;
 
 }
 
 summary {
     padding: 10px;
-
 }
-
 
 details {
     margin: 0;
     display: inline-block;
 }
 
-
-
-
 /* Style pour expo */
 h1 {
     text-align: center;
+    padding: 2% 0 0 0;
 }
 
 .image_test {
@@ -153,8 +149,8 @@ h1 {
 
 .image_conclu {
     background-color: red;
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 300px;
     background-repeat: no-repeat;
 }
 
@@ -162,6 +158,6 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 150px 0 0 0;
+    padding: 100px 0 0 0;
     gap: 5%;
 }
