@@ -1,5 +1,5 @@
 * {
-  margin: 0;
+    margin: 0;
 }
 
 /* Style général pour le body */
@@ -57,12 +57,12 @@ footer {
     margin-top: 2em;
 }
 
-/* Style pour entreprise*/
+/* Style pour interview*/
 
 .image_interview {
-    background-image: url("Images/BD.jpg");
-    width: 300px;
-    height: 230px;
+    background-image: url("Images/Bastien.jpg");
+    width: 460px;
+    height: 460px;
     background-repeat: no-repeat;
 
 }
@@ -157,6 +157,33 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: justify;
     padding: 100px 0 0 0;
     gap: 5%;
 }
+
+/* Style pour entreprise */
+
+#titre_entreprise {
+    margin: 0px 0 30px 0;
+}
+
+.image_entreprise {
+    background: url(Images/logo_bimono.jpg);
+    width: 324px;
+    height: 140px;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+h3 {
+    margin-top: 20px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+ul {
+    margin: 20px 0 0 100px;
+    justify-content: center;
+}
+
