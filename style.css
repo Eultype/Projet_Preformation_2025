@@ -176,14 +176,26 @@ h1 {
     margin: auto;
 }
 
-h3 {
-    margin-top: 20px;
+h2 {
+    margin: 20px 0 20px 0;
     text-decoration: underline;
     text-align: center;
 }
 
 ul {
-    margin: 20px 0 0 100px;
-    justify-content: center;
+    margin: 20px 20px 0 55px;
+    text-align: center;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.organigramme {
+    background: url(Images/organigramme.png);
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 500px;
+    margin: auto;
 }
 
