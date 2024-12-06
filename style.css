@@ -2,11 +2,17 @@
     margin: 0;
 }
 
+main {
+    flex: 1;
+}
 /* Style général pour le body */
 body {
     background-color: #DDD0C8;
     color:#323232;
     font-family: Arial, sans-serif;
+    min-height: 100vh;
+    flex-direction: column;
+    display: flex;
 }
 
 /* Style pour le header */
@@ -82,6 +88,7 @@ footer {
 
 summary {
     padding: 10px;
+    font-weight: bold;
 }
 
 details {
@@ -157,10 +164,11 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: justify;
     padding: 100px 0 0 0;
     gap: 5%;
 }
+
+
 
 /* Style pour entreprise */
 
