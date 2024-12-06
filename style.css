@@ -15,6 +15,10 @@ body {
     display: flex;
 }
 
+.Accueil {
+    background: url();
+}
+
 /* Style pour le header */
 header {
     color: white; 
@@ -208,3 +212,59 @@ ul li {
     margin: auto;
 }
 
+/* Style pour Photos*/
+
+
+.images_expo1 {
+    display: flex;
+    gap: 21%;
+    padding: 50px 0 0 35px;
+}
+
+.images_expo2 {
+    display: flex;
+    gap: 21%;
+    padding: 50px 0 0 35px;
+}
+
+.image_expo1 {
+    background: url(Images/image_expo1.jpg);
+    width: 350px;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+
+.image_expo2 {
+    background: url(Images/image_expo2.jpeg);
+    width: 350px;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+
+.image_expo3 {
+    background: url(Images/image_expo3.jpeg);
+    width: 350px;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+
+.image_expo4 {
+    background: url(Images/image_expo4.jpeg);
+    width: 350px;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+
+.image_expo5 {
+    background-color: red;
+    width: 350px;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+
+.image_expo6 {
+    background-color: red;
+    width: 350px;
+    height: 300px;
+    background-repeat: no-repeat;
+}
