@@ -16,7 +16,7 @@ body {
 }
 
 .Accueil {
-    background: url(Images/Background_index.jpg);
+    background: url(Images/Background_index.png);
     background-repeat: no-repeat;
 }
 
@@ -65,6 +65,7 @@ footer {
     padding: 1em 0;
     background-color: #333; 
     color: white;
+    margin: 20px 0 0 0;
 }
 
 /* Style pour interview*/
