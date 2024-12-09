@@ -130,6 +130,20 @@
         <footer>
             ©2024 - DARRY Samuël
         </footer>    
-    
+    <script>
+        // Sélectionne tous les éléments <details>
+const detailsElements = document.querySelectorAll("details");
+
+detailsElements.forEach((detail) => {
+    detail.addEventListener("click", () => {
+        // Ferme tous les autres <details> sauf celui qui a été cliqué
+        detailsElements.forEach((otherDetail) => {
+            if (otherDetail !== detail) {
+                otherDetail.removeAttribute("open");
+            }
+        });
+    });
+});
+    </script>
     </body>
 </html>
