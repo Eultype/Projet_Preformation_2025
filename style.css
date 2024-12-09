@@ -117,6 +117,7 @@ ul li {
 
 }
 
+
 .main_interview {
     display: flex;
     justify-content: center;
@@ -140,6 +141,7 @@ details {
     display: inline-block;
     text-align: justify;
 }
+
 
 /* Style pour Exposition */
 h1 {
@@ -200,55 +202,67 @@ h1 {
 
 .images_expo1 {
     display: flex;
-    gap: 21%;
-    padding: 50px 0 0 35px;
+    gap: 8%;
+    padding: 50px 0 0 50px;
 }
 
 .images_expo2 {
     display: flex;
-    gap: 21%;
-    padding: 50px 0 0 35px;
+    gap: 8%;
+    padding: 50px 0 0 50px;
 }
 
 .image_expo1 {
-    background: url(Images/image_expo1.jpg);
-    width: 350px;
-    height: 300px;
+    background: url(Images/image_expo1test.jpg);
+    width: 500px;
+    height: 372px;
     background-repeat: no-repeat;
 }
 
 .image_expo2 {
-    background: url(Images/image_expo2.jpeg);
-    width: 350px;
-    height: 300px;
+    background: url(Images/image_expo2test.jpeg);
+    width: 500px;
+    height: 372px;
     background-repeat: no-repeat;
 }
 
 .image_expo3 {
-    background: url(Images/image_expo3.jpeg);
-    width: 350px;
-    height: 300px;
+    background: url(Images/image_expo3test.jpg);
+    width: 500px;
+    height: 372px;
     background-repeat: no-repeat;
 }
 
 .image_expo4 {
-    background: url(Images/image_expo4.jpeg);
-    width: 350px;
-    height: 300px;
+    background: url(Images/image_expo4test.jpg);
+    width: 500px;
+    height: 372px;
     background-repeat: no-repeat;
 }
 
 .image_expo5 {
-    background-color: red;
-    width: 350px;
-    height: 300px;
+    background: url(Images/image_expo5test.jpg);
+    width: 500px;
+    height: 372px;
     background-repeat: no-repeat;
+    position: relative;
+}
+
+figcaption {
+    padding: 10px;
+    font-size: 14px;
+    color: black;
+    background-color: #eaeaea;
+    font-style: italic; 
+    position: absolute;
+    bottom: 0;
+    
 }
 
 .image_expo6 {
-    background-color: red;
-    width: 350px;
-    height: 300px;
+    background: url(Images/image_expo6test.jpg);
+    width: 500px;
+    height: 372px;
     background-repeat: no-repeat;
 }
 
