@@ -104,6 +104,11 @@ ul li {
     width: 700px;
     height: 500px;
     margin: auto;
+    margin-bottom: 20px;
+}
+
+.maps {
+    text-align: center;
 }
 
 
@@ -141,7 +146,6 @@ details {
     display: inline-block;
     text-align: justify;
 }
-
 
 /* Style pour Exposition */
 h1 {
@@ -252,7 +256,7 @@ figcaption {
     padding: 10px;
     font-size: 14px;
     color: black;
-    background-color: #eaeaea;
+    background-color: #eaeaea; 
     font-style: italic; 
     position: absolute;
     bottom: 0;
