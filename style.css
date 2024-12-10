@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Oswald:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
     margin: 0;
 }
@@ -9,7 +11,7 @@ main {
 body {
     background-color: #DDD0C8;
     color:#323232;
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto';
     min-height: 100vh;
     flex-direction: column;
     display: flex;
@@ -50,7 +52,7 @@ nav a {
     text-decoration: none;
     color: #323232;
     font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Roboto';
     font-size: 22px;
 }
 
@@ -101,9 +103,9 @@ ul li {
 .organigramme {
     background: url(Images/organigramme.png);
     background-repeat: no-repeat;
-    width: 700px;
+    width: 800px;
     height: 500px;
-    margin: auto;
+    margin-left: 31%;
     margin-bottom: 20px;
 }
 
@@ -122,18 +124,21 @@ ul li {
 
 }
 
+h3 {
+    text-align: center;
+}
 
 .main_interview {
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 15%;
+    gap: 5%;
+    margin: 100px 0 50px 0;
     height: 80vh;
-
 }
 
 .interview_QR {
     width: 45%;
+    margin: 70px 0 0 0;
 }
 
 summary {
@@ -198,7 +203,7 @@ h1 {
     justify-content: center;
     align-items: center;
     gap: 2%;
-    padding: 10px 0 0 0;
+    padding: 10px 0 50px 0;
 }
 
 /* Style pour Photos*/
