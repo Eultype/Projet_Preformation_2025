@@ -237,6 +237,7 @@ h1 {
     width: 500px;
     height: 372px;
     background-repeat: no-repeat;
+    border-radius: 2%;
 }
 
 .image_expo2 {
@@ -244,6 +245,7 @@ h1 {
     width: 500px;
     height: 372px;
     background-repeat: no-repeat;
+    border-radius: 2%;
 }
 
 .image_expo3 {
@@ -251,6 +253,7 @@ h1 {
     width: 500px;
     height: 372px;
     background-repeat: no-repeat;
+    border-radius: 2%;
 }
 
 .image_expo4 {
@@ -258,6 +261,7 @@ h1 {
     width: 500px;
     height: 372px;
     background-repeat: no-repeat;
+    border-radius: 2%;
 }
 
 .image_expo5 {
@@ -266,6 +270,7 @@ h1 {
     height: 372px;
     background-repeat: no-repeat;
     position: relative;
+    border-radius: 2%;
 }
 
 figcaption {
@@ -276,7 +281,6 @@ figcaption {
     font-style: italic; 
     position: absolute;
     bottom: 0;
-    
 }
 
 .image_expo6 {
@@ -284,6 +288,7 @@ figcaption {
     width: 500px;
     height: 372px;
     background-repeat: no-repeat;
+    border-radius: 2%;
 }
 
 /* Style pour CONCLUSION */
@@ -293,6 +298,7 @@ figcaption {
     width: 518px;
     height: 336px;
     background-repeat: no-repeat;
+    border-radius: 2%;
 }
 
 .conclu_test {
