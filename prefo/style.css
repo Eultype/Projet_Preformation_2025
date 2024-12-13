@@ -127,12 +127,44 @@ ul li {
 
 /* Style pour interview*/
 
+.carte_contact {
+    border: 2px solid #323232; 
+    border-radius: 10px; 
+    width: 350px; 
+    height: 385px;
+    text-align: center; 
+    background-color: #f9f9f9;
+    padding: 10px; 
+}
+
+.carte_contact:hover {
+    transform: scale(1.20); 
+    transition: transform 0.5s ease-in-out;
+}
+
 .image_interview {
     background-image: url("Images/Bastien.jpg");
-    width: 460px;
-    height: 460px;
-    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    background-size: cover; 
+    background-position: center;
+    border-radius: 8px; 
+    margin-bottom: 10px;
+}
 
+.contact_info {
+    font-weight: bold; 
+    color: #323232;
+    text-decoration: double;
+}
+
+.contact_info a {
+    text-decoration: none;
+    color: #323232;
+}
+
+.contact_info a:hover {
+    color: #0056b3;
 }
 
 h3 {
@@ -143,18 +175,23 @@ h3 {
     display: flex;
     justify-content: center;
     gap: 5%;
-    margin: 100px 0 50px 0;
-    height: 80vh;
+    margin: 100px 0 180px 0;
 }
 
 .interview_QR {
     width: 45%;
-    margin: 70px 0 0 0;
+    margin: 40px 0 0 0;
 }
 
 summary {
     padding: 10px;
     font-weight: bold;
+    cursor: pointer;
+}
+
+details[open] summary {
+    color: #007BFF;
+    transition: color 0.3s ease-in-out;
 }
 
 details {
@@ -220,13 +257,7 @@ h1 {
 /* Style pour Photos*/
 
 
-.images_expo1 {
-    display: flex;
-    gap: 8%;
-    padding: 50px 0 0 50px;
-}
-
-.images_expo2 {
+.images_expo1, .images_expo2 {
     display: flex;
     gap: 8%;
     padding: 50px 0 0 50px;
@@ -289,6 +320,11 @@ figcaption {
     height: 372px;
     background-repeat: no-repeat;
     border-radius: 2%;
+}
+
+.image_expo1:hover, .image_expo2:hover, .image_expo3:hover, .image_expo4:hover, .image_expo5:hover, .image_expo6:hover {
+    transform: scale(1.05); /* Agrandir légèrement */
+    transition: transform 0.3s ease-in-out;
 }
 
 /* Style pour CONCLUSION */
