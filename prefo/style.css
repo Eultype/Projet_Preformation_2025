@@ -82,6 +82,7 @@ footer {
     height: 140px;
     background-repeat: no-repeat;
     margin: auto;
+    border: solid 2px #e5e3e1;
 }
 
 h2 {
@@ -116,8 +117,9 @@ ul li {
     background-repeat: no-repeat;
     width: 800px;
     height: 500px;
-    margin-left: 31%;
+    margin-left: 29%;
     margin-bottom: 20px;
+    background-color: white;
 }
 
 .maps {
@@ -128,7 +130,7 @@ ul li {
 /* Style pour interview*/
 
 .carte_contact {
-    border: 2px solid #323232; 
+    border: 3px solid #e5e3e1; 
     border-radius: 10px; 
     width: 350px; 
     height: 385px;
@@ -152,8 +154,7 @@ ul li {
     margin-bottom: 10px;
 }
 
-.contact_info {
-    font-weight: bold; 
+.contact_info { 
     color: #323232;
     text-decoration: double;
 }
@@ -161,6 +162,7 @@ ul li {
 .contact_info a {
     text-decoration: none;
     color: #323232;
+    font-weight: 600;
 }
 
 .contact_info a:hover {
@@ -259,8 +261,12 @@ h1 {
 
 .images_expo1, .images_expo2 {
     display: flex;
-    gap: 8%;
+    gap: 7.5%;
     padding: 50px 0 0 50px;
+}
+
+.images_expo2 {
+    margin-bottom: 30px;
 }
 
 .image_expo1 {
@@ -269,6 +275,7 @@ h1 {
     height: 372px;
     background-repeat: no-repeat;
     border-radius: 2%;
+    border: solid 3px #e5e3e1;
 }
 
 .image_expo2 {
@@ -277,6 +284,7 @@ h1 {
     height: 372px;
     background-repeat: no-repeat;
     border-radius: 2%;
+    border: solid 3px #e5e3e1;
 }
 
 .image_expo3 {
@@ -285,6 +293,7 @@ h1 {
     height: 372px;
     background-repeat: no-repeat;
     border-radius: 2%;
+    border: solid 3px #e5e3e1;
 }
 
 .image_expo4 {
@@ -293,6 +302,7 @@ h1 {
     height: 372px;
     background-repeat: no-repeat;
     border-radius: 2%;
+    border: solid 3px #e5e3e1;
 }
 
 .image_expo5 {
@@ -302,6 +312,7 @@ h1 {
     background-repeat: no-repeat;
     position: relative;
     border-radius: 2%;
+    border: solid 3px #e5e3e1;
 }
 
 figcaption {
@@ -320,10 +331,11 @@ figcaption {
     height: 372px;
     background-repeat: no-repeat;
     border-radius: 2%;
+    border: solid 3px #e5e3e1;
 }
 
 .image_expo1:hover, .image_expo2:hover, .image_expo3:hover, .image_expo4:hover, .image_expo5:hover, .image_expo6:hover {
-    transform: scale(1.05); /* Agrandir légèrement */
+    transform: scale(1.10); /* Agrandir légèrement */
     transition: transform 0.3s ease-in-out;
 }
 
@@ -335,6 +347,7 @@ figcaption {
     height: 336px;
     background-repeat: no-repeat;
     border-radius: 2%;
+    border: solid 3px #e5e3e1;
 }
 
 .conclu_test {
